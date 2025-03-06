@@ -7,9 +7,10 @@ import { Post } from "../post.model";
 import { mimeType } from "./mime-type.validator";
 
 @Component({
-  selector: "app-post-create",
-  templateUrl: "./post-create.component.html",
-  styleUrls: ["./post-create.component.css"]
+    selector: "app-post-create",
+    templateUrl: "./post-create.component.html",
+    styleUrls: ["./post-create.component.css"],
+    standalone: false
 })
 export class PostCreateComponent implements OnInit {
   enteredTitle = "";
